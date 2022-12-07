@@ -17,4 +17,12 @@
  logBetween(10, 20);
 
 
-git 
+ // Using for loop
+ function logBetween(lowNum, highNum) {
+    for(i = lowNum; i < highNum; i++) {
+        console.log(i);
+    }
+}
+
+logBetween(20, 31);
+
